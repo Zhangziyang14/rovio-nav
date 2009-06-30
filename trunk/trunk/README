@@ -1,0 +1,23 @@
+README
+23 June 2009
+
+Included in this package are the following files/functions:
+
+Navigation
+  abs_est           - Absolute position filter and estimation
+  rov_abs_interface - Absolute position interface
+  move_towards      - Function to move the Rovio towards a point
+
+Helpers
+  add_angle  - Add two angles
+  subt_angle - Subtract two angles
+  lkf        - Linear Kalman filter (used in filtering the position)
+  rovio      - Rovio class definition
+
+To calculate the estimated position of the Rovio, run abs_est at each timestep.
+An interface is included so you can watch the filter in action. In MATLAB, run
+rov_abs_interface to start the interface. For more detailed documentation, run
+'help function-name-here' in the command window of MATLAB.
+
+If you have any questions, comments, or suggestions, e-mail me at 
+jnschaeffer@wpi.edu
