@@ -1,0 +1,1 @@
+This project uses the positioning system in the Rovio to acquire raw data, which is filtered with MATLAB software to find positions relative to the starting position regardless of how many beacons (barring the hardware limit of 10) the Rovio has passed through.
